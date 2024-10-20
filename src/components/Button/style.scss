@@ -1,0 +1,19 @@
+.Button{
+    font-size: var(--bodyFontSize);
+    padding: 0 20px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    height: 40px;
+    border-radius: 4px;
+    align-self: center;
+
+    &.Button--primary{
+        background: var(--primary);
+        transition-duration: 400ms;
+
+        &:hover{
+            background: var(--secondary);
+        }
+    }
+}

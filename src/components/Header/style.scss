@@ -1,0 +1,38 @@
+.Header{
+
+    display: flex;
+    max-width: 1500px;
+    margin: 0 auto;
+
+    ul{
+     display: flex;   
+     flex-grow: 1;
+     list-style-type: none;
+
+     li{
+        margin: 0px 70px;
+
+        a{
+            text-decoration: none;
+            color: var(--grey);
+            transition-duration: 400ms;
+
+            &:hover{
+                color: var(--primary);
+            }
+
+            &.active{
+                color: var(--primary);
+                font-weight: bold;
+            }
+        }
+     }
+    }
+}
+
+.logo-text{
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--primary);
+    align-self: center;
+}
