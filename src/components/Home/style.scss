@@ -1,0 +1,53 @@
+.Home {
+
+    text-align: justify;
+    min-height: 483px;
+
+    .main-title {
+        font-size: var(--mailTitle);
+    }
+
+    .theme-box-primary {
+        width: 36%;
+        height: 330px;
+        top: 32%;
+        right: 0;
+        position: absolute;
+        background: var(--primary);
+        z-index: -1;
+    }
+
+    .theme-box-secondary {
+        width: 428px;
+        height: 212px;
+        background: var(--secondary);
+        position: absolute;
+        top: 42%;
+        right: 16%;
+        z-index: -1;
+        padding: 65px 50px 50px 50px;
+        font-size: 12px;
+
+        &::after{
+            content: '"';
+            color: #ffffff;
+            font-size: 50px;
+            position: absolute;
+            top: 9px;
+        }
+    }
+
+    .img-dot {
+        opacity: 0.2;
+        width: 17%;
+        position: absolute;
+        right: 11%;
+        top: 21%;
+    }
+}
+
+@media only screen and (max-width: 1900px) {
+    .theme-box-secondary{
+      display: none;
+    }
+    }

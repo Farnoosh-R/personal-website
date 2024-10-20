@@ -4,6 +4,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-top: 30px;
+  text-align: justify;
 }
 
 code {
@@ -11,10 +12,14 @@ code {
     monospace;
 }
 
+
+
 :root{
   --bodyFontSize: 14px;
+  --mailTitle: 50px;
   --primary: #2ba7af;
   --secondary: #18245c;
   --grey: #666;
   --lightGrey: #c5c5c5;
 }
+
